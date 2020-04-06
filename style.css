@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family: 'Courier New', Courier, monospace;
+color: #333;
+font-size: 1rem;
+}
+
+.bg{
+    background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url(img/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* header section */
+.header-wrapper{
+ margin-top: 15px;
+}
+
+.logo {
+    margin-top: 8px;
+    width: 150px;
+}
+
+.header-btn{
+    float: right;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 7px 20px;
+    margin-top: 15px;
+    color: #fff!important;
+    background: #27cf18;
+    font-weight: 600;
+}
+
+/* docu-details section */
+.docu-details{
+    margin: 3% 0;
+}
+.left-box {
+    color: #fff;
+}
+
