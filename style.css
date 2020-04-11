@@ -27,7 +27,7 @@ font-size: 1rem;
 
 .logo {
     margin-top: 8px;
-    width: 150px;
+    width: 200px;
 }
 
 .header-btn{
@@ -48,5 +48,59 @@ font-size: 1rem;
 }
 .left-box {
     color: #fff;
+    margin: 15px 0;
+    padding: 20px;
 }
 
+
+/* cast list */
+.cast-list img{
+width: 40px;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.left-box a {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-top: 35px;
+    margin-right: 10px;
+    color: #fff!important;
+    background: #27cf18;
+    font-weight: 600;
+    display: inline-block; 
+}
+
+.download-btn{
+    border: 1px solid #fff !important;
+    background: transparent !important;
+}
+
+.fa{
+    margin: 0 5px;
+}
+
+/* right column */
+.poster-img{
+    height: 350px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+
+.series h3{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.series img {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    transform: 1s;
+}
+
+.series img:hover{
+    transform: translateY(-10px);
+}
