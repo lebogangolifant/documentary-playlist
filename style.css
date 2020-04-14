@@ -92,13 +92,13 @@ margin-right: 10px;
     box-shadow: -2px 2px 5px 0 #fff;
 }
 
-.series h3{
+.docs h3{
     color: #fff;
     text-transform: capitalize;
 }
 
 
-.series img {
+.docs img {
     width: 100%;
     cursor: pointer;
     margin-top: 15px;
@@ -107,6 +107,6 @@ margin-right: 10px;
     transform: 1s;
 }
 
-.series img:hover{
+.docs img:hover{
     transform: translateY(-10px);
 }
