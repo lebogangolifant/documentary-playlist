@@ -10,7 +10,7 @@ background-color: #000;
 }
 
 .bg{
-    background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url(img/africa.jpg);
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(img/africa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
